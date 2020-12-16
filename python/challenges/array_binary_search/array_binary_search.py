@@ -1,6 +1,14 @@
-def binary_array_search(array_input):
-		for array_input in input_array:
-			if array_input == array_input:
-				print(array_input)
-			else:
-				return array_input[i]	
+def binary_search(arr, num):
+	first = 0
+	last = len(arr) - 1
+	index = -1
+	while (first <= last) and (index == -1):
+		mid = (first + last) // 2
+		if arr[mid] == num:
+			index = mid
+		elif num < arr[mid]:
+			last = mid -1
+		else:
+			first = mid + 1
+	return index			
+			
