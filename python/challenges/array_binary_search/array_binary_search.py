@@ -11,4 +11,4 @@ def binary_search(arr, num):
 		else:
 			first = mid + 1
 	return index			
-			
+
