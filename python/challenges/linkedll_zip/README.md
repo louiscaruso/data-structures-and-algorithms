@@ -1,0 +1,1 @@
+![White Board](code-challenge-08-1.png)
