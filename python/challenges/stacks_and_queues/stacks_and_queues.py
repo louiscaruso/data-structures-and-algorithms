@@ -16,7 +16,7 @@ class Stack():
         self.top = node
     def push(self, value):
 
-    # create a node from value
+    # create a node from valuee
         node = Node(value)
     # new Node to top
         node.next = self.top
