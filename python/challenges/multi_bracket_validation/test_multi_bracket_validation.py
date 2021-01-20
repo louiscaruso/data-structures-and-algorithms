@@ -44,11 +44,3 @@ def test_weird_placement():
     actual = bracket_type(string)
     expected = False
     assert actual == expected
-
-
-
-
-
-
-
-
